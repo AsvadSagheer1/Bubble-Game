@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body, html{
+    width: 100%;
+    height: 100%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+}
+#main{
+    width: 100%;
+    height: 100%;
+    background-color: rgb(126, 202, 126);
+    display: flex; 
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+#panel{
+    width: 80%;
+    height: 80%;
+    background-color: white;
+    border-radius: 10px;
+    overflow: hidden;
+}
+#ptop{
+    width: 100%;
+    height: 70px;
+    background-color: rgb(26, 74, 26);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.content{
+    display: flex;
+    align-items: center;
+    width: 10%;
+}
+.box{
+    padding: 5px 10px;
+    background-color: white;
+    font-size: 17px;
+    border-radius: 5px;
+    margin-left: 10px;
+    color: green;
+}
+#pbtm{
+    width: 100%;
+    height: calc(100% - 70px);
+    padding: 5px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.circle{
+    height: 40px;
+    width: 40px;
+    background-color: rgb(7, 95, 7);
+    color: white;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 3px;
+}
+#btn{
+    padding: 10px 20px;
+    background-color: rgb(12, 55, 15);
+    color: white;
+    border-radius: 10px;
+    margin-top: 20px;
+    border: 2px solid rgb(12, 55, 15);
+}
+#btn:hover{
+    background-color: rgb(31, 83, 34);
+    border: 2px solid rgb(31, 83, 34);
+}
